@@ -4,8 +4,6 @@
 
 ## 환경 설정 및 특정 부분 코드를 구현하는데 있어서 익숙해질 때까지 반복하기 :muscle::muscle::muscle:
 
----
-
 * TypeScript 환경 설정이 익숙해질 때까지 반복
 
 * TypeScript document 보면서 익숙해질 때까지 문법 익히고 작성해보기
