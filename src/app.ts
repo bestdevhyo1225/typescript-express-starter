@@ -4,6 +4,7 @@ import express, { Request, Response } from 'express';
 import errorMiddleware from './middlewares/error';
 
 // Routers
+import indexRouter from './routes/index';
 import echoRouter from './routes/echo';
 
 // Utils
@@ -22,13 +23,12 @@ connectMongoDB(MONGODB_URI);
 */
 const app = express();
 
-// echo
-app.use('/', echoRouter);
+// Router
+app.use('/', indexRouter);
+app.use('/echo', echoRouter);
 
-// catch 404 and forward to error handler
+// Error Handler
 app.use(errorMiddleware.error404);
-
-// error handler
 app.use(errorMiddleware.error);
 
 export default app;
