@@ -15,3 +15,7 @@
     * [TypeScript Node starter](https://github.com/microsoft/TypeScript-Node-Starter)
 
     * [TypeScript로 Express 시작하기 시리즈(1 ~ 4)](https://gongzza.github.io/javascript/nodejs/typescript-express-starter-1/)
+
+* mongoose schema `methods` vs `statics` 활용 참고
+
+    * [methods vs statics](http://kese111.blogspot.com/2015/01/mongoose-methods-statics.html)
