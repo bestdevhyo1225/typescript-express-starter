@@ -10,7 +10,7 @@ if (fs.existsSync('.env')) {
 export const ENVIRONMENT = process.env.NODE_ENV;
 const prod = ENVIRONMENT === 'production';
 
-export const MONGODB_URI = process.env.MONGODB_URI;
+export const MONGODB_URI = process.env.MONGODB_URI as string;
 
 if (!MONGODB_URI) {
     if (prod) {
