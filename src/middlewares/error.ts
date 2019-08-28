@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
+import logger from '../utils/logger';
 
 interface Err extends Error {
     status : number;
@@ -12,6 +13,12 @@ const error404 = async (req: Request, res: Response, next: NextFunction): Promis
 };
 
 const error = async (err: Err, req: Request, res: Response, next: NextFunction): Promise<void> => {
+    if (res.statusCode === 404) {
+        logger.error(`Error message : ${err.message}`);
+    } else {
+        logger.error(`Error message : ${err.message}\n Error Stacktrace : ${err.stack}`);
+    }
+
     res.status(err.status || 500);
     res.json({
         message: err.message,
