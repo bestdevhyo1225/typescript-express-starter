@@ -26,6 +26,12 @@
 
 * 나중에 MySQL로 마이그레이션 할 것 (ORM -> typeorm 모듈 이용하기)
 
+* 사용자 로그인 인증 - JWT & OAuth 구현하기
+
+    * JWT는 `jsonwebtoken' 모듈 사용해서 구현하기
+
+    * OAuth는 Google, Github, facebook 정도만 적용하기
+
 * Heroku 배포
 
     * [my-typescript-express-app](https://my-typescript-express-app.herokuapp.com/)
