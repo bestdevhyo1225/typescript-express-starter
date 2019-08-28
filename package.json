@@ -7,7 +7,7 @@
     "start": "node dist/src/server.js",
     "build": "npm run build-ts && npm run lint",
     "build-ts": "tsc",
-    "lint": "tslint -p .",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
     "test": "jest --detectOpenHandles --coverage --verbose"
   },
   "jest": {
