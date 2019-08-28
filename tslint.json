@@ -30,6 +30,10 @@
             true,
             4
         ],
-        "no-trailing-whitespace": [ true, "ignore-template-strings" ]
+        "no-trailing-whitespace": [ true, "ignore-template-strings" ],
+        "object-literal-key-quotes": [true, "consistent-as-needed"],
+        "quotemark": false,
+        "no-consecutive-blank-lines": false,
+        "comment-format": false
     }
 }
