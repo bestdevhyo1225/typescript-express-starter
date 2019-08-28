@@ -2,7 +2,7 @@
 
 <br>
 
-## :pencil2: 환경 설정 및 특정 부분 코드를 구현하는데 있어서 익숙해질 때까지 반복하기
+### :muscle: 환경 설정 및 특정 부분 코드를 구현하는데 있어서 익숙해질 때까지 반복하기
 
 * TypeScript 환경 설정이 익숙해질 때까지 반복
 
@@ -32,7 +32,7 @@
 
     * JWT는 `jsonwebtoken` 모듈 사용해서 구현하기
 
-    * OAuth는 `Google`, `Github`, `Facebook` 정도만 적용하기
+    * OAuth는 `Google`, `Github`, `Facebook` 적용하는 연습하기
 
 * Heroku 배포
 
