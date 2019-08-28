@@ -16,6 +16,16 @@
 
     * [TypeScript로 Express 시작하기 시리즈(1 ~ 4)](https://gongzza.github.io/javascript/nodejs/typescript-express-starter-1/)
 
-* mongoose schema `methods` vs `statics` 활용 참고
+* Mongoose Schema `methods` vs `statics` 활용 참고
 
     * [methods vs statics](http://kese111.blogspot.com/2015/01/mongoose-methods-statics.html)
+
+* Mongoose (Object Document Mapping Framework)
+
+    * [Mongoose 공식 문서](https://mongoosejs.com/docs/guide.html)
+
+* 나중에 MySQL로 마이그레이션 할 것 (ORM -> typeorm 모듈 이용하기)
+
+* Heroku 배포
+
+    * [my-typescript-express-app](https://my-typescript-express-app.herokuapp.com/)
