@@ -34,6 +34,8 @@
 
     * OAuth는 `Google`, `Github`, `Facebook` 적용하는 연습하기
 
+* React 추가해보기..
+
 * Heroku 배포
 
     * [my-typescript-express-app](https://my-typescript-express-app.herokuapp.com/)
