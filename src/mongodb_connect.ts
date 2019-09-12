@@ -8,10 +8,7 @@ const connect = (mongoURI: string) => {
         return Promise.resolve(connection);
     }
 
-    return mongoose.connect(mongoURI, option).then(conn => {
-        connection = conn;
-        return connection;
-    });
+    return mongoose.connect(mongoURI, option).then(conn => connection = conn);
 };
 
 const connectMongoDB = (mongoURI: string): void => {
