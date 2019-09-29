@@ -34,6 +34,7 @@
         "object-literal-key-quotes": [true, "consistent-as-needed"],
         "quotemark": false,
         "no-consecutive-blank-lines": false,
-        "comment-format": false
+        "comment-format": false,
+        "no-floating-promises": false
     }
 }
